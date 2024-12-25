@@ -18,5 +18,5 @@ contract FunToken is ERC20 {
     function mint(address to, uint amount) external {
         require(msg.sender == owner, "Only owner can mint!");
         _mint(to, amount);
-    };
+    }
 }
