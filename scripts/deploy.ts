@@ -12,7 +12,7 @@ const main = async () => {
   console.log('Deploying FunToken...')
   const funToken = await FunToken.deploy()
   // await funToken.deployed()
-  // console.log(`FunToken deployed to: ${funToken.address}`)
+  console.log(`FunToken deployed to: ${await funToken.getAddress()}`)
 }
 
 main()

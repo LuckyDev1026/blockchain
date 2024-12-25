@@ -5,9 +5,9 @@ const config: HardhatUserConfig = {
   solidity: '0.8.28',
   networks: {
     binance: {
-      url: `https://bsc-dataseed.binance.org/`,
+      url: `https://bsc-testnet-rpc.publicnode.com`,
       accounts: [
-        'a7d9da0c366d6c31bc3000375cb25efa52b5228054e1d8590f98307d97808189',
+        '94a599d09fb3d108b2a3a059c01795f5880d8907a53ca33318b038474724c05a',
       ],
     },
   },
